@@ -1,0 +1,152 @@
+
+/*===========ENCABEZADO==============*/
+
+aside{
+    border: 2px solid  black;
+    width: 35%;
+    margin-left: 1.7%;
+    margin-right: 1.7%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Menu{
+    display: flex;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/*================== Buscador =================*/
+
+.margen_buscador{
+    margin-top: 10px;
+    width: 80%;
+}
+
+.Buscador{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 25px;
+    white-space: nowrap;
+    position: relative;
+    background-color: lightgray
+}
+
+.Buscador input.ingresar{
+    height: 46px;
+    width: 70%;
+    border-radius: 25px;
+    border: 2px solid black;
+    font-size: 10pt;
+    float: left;
+    position: absolute;
+    left: 65px;
+    top: 0px;
+}
+
+
+.Buscador #lupa{
+    margin-left: 10px;
+    height: 48px;
+    position: absolute;
+    margin-left: 17px;
+    margin-top: 5px;
+    z-index: 1;
+}
+
+
+/*================== Calendario ===================*/
+.calendario{
+    width: 80%;
+}
+.calendarTable{
+    margin: 10px auto;
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    text-align: center;
+    width: 100%;
+    height: 230px;
+}
+
+.calendarHeader{
+    margin: 15px 0 0 0;
+    text-align: center;
+    border: 2px solid lightgray;
+}
+
+.encabezadoPrincipal{
+    border: 0px;
+}
+
+.encabezadoFila{
+    background-color: lightgray;
+}
+
+.encabezado{
+    border: 0px;
+}
+
+.extraDays{
+    color: lightgray;
+}
+
+.celdaEspecial1{
+    border-bottom-left-radius: 13px;
+}
+
+.celdaEspecial1{
+    border-bottom-left-radius: 13px;
+}
+
+.seleccionar-Dia{
+    background-color: red;
+    color: white;
+}
+
+.selectedDay:hover{
+    cursor: pointer;
+}
+
+th{
+    border: 2px solid lightgray;
+}
+
+td{
+    border: 2px solid lightgray;
+}
+
+/*Fin calendario*/
+
+
+/*=============Noticias Populares===========*/
+.popular_news{
+    width: 80%;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+.Fecha{
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+    font-size: small;
+}
+
+.Titulo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    color: darkblue;
+}
+
+.Titulo:hover{
+    color: rgb(255, 217, 0);;
+}

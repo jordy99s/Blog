@@ -1,0 +1,272 @@
+
+body {
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+
+p {
+    font-size: small;
+}
+
+.Menu{
+    padding-top: 90px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    flex-grow: 4;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.col-sm {
+    margin: 0;
+    align-content: flex-start;
+    flex-direction: row;
+}
+
+.col-md {
+    margin: 10 auto;
+    padding: 20px;
+    text-align: left;
+    flex-direction: column;
+}
+
+.article-image {
+    margin-top: 3%;
+    width: 200px;
+    height: 200px;
+}
+
+.row img  {
+    border-radius: 20%;
+}
+
+.article-image:hover {
+    width: 225px;
+    height: 225px;
+}
+
+.row img:hover {
+    border: 1.5px solid orange;
+}
+
+.important-titles:hover {
+    color: rgb(33, 101, 156);
+}
+
+.left-special {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(87, 97, 97);
+    padding: 2px;
+    text-decoration: none;
+}
+
+.left-special > a {
+    text-decoration: none;
+}
+
+.right-special {
+    font-family: 'Raleway', sans-serif;
+    color: orangered;
+    margin: 0, 0;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.right-special:hover {
+    color: rgb(33, 101, 156);
+}
+
+.left-special:hover {
+    color: rgb(33, 101, 156);
+}
+
+.special-icon {
+    color:rgb(87, 97, 97);
+}
+
+.special-icon:hover{
+    color: orangered;
+}
+
+.count {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+.button-space{
+    display: flex;
+    padding: 2%;
+    padding-left: 20%;
+}
+
+.breakout-button {
+    font: inherit;
+    font-weight: 600;
+    padding: 0.6rem 2rem;
+    background: rgb(18, 39, 78);
+    color: white;
+    border: 1px solid;
+    transition: background 100ms ease;
+    position: static;
+  }
+  
+  .breakout-button,
+  .breakout-button::before {
+    cursor: pointer;
+  }
+
+  .breakout-button:focus {
+    outline: none;
+  }
+  
+  .breakout-button:hover {
+    background: rgb(128, 187, 236);
+    border: 1px solid rgb(87, 97, 97);
+  }
+
+/*HEADER*/
+
+.encab-pag{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 217, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ .logo img{
+    height: 60px;
+}
+
+.encab-pag .logo{
+    float: left;
+    padding-top: 10px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.encab-pag .nav-principal-left{
+    float: left;
+}
+.encab-pag .nav-principal-right{
+    float: left;
+}
+
+.nav-principal-left li{
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.nav-principal-right li{
+    float: left;
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+.nav-principal-left li a{
+    color: #44627A;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 80px;
+}
+.nav-principal-right li a{
+    color: #44627A;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.nav-principal-left li a:hover{
+    color: #4C9ACC;
+}
+.nav-principal-right li a:hover{
+    color: #4C9ACC;
+}
+
+
+
+
+/*FOOTER*/
+.footer{
+    background: rgb(255, 217, 0);
+    padding-top: 25px;
+}
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.a li{
+    text-align: start;
+    text-transform: uppercase;
+    flex-grow: 1;
+    color: #44627A;
+    text-decoration: none;
+    line-height: 20px;
+    list-style-type: none;
+}
+
+.b{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 2; 
+     
+}
+
+.b a{
+    text-transform: uppercase;
+    text-decoration-line: none;
+    color: #44627A;
+}
+
+.b a:hover{
+    color: white;
+}
+
+.b p{
+    align-self: flex-end;
+}
+
+.c{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.c a{
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: white;
+    color: rgb(255, 217, 0);
+    text-align: center;
+    line-height: 44px;
+}
+
+.icon a:hover{
+    background:rgb(255, 217, 0);
+    color: white;
+}
+
+.copyright{
+    color:#44627A;
+    text-transform: capitalize;
+}
